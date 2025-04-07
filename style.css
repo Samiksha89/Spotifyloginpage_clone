@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  body {
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto 30px;
+  }
+  
+  .login-box {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+    font-size: 14px;
+  }
+  
+  form input {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #2a2a2a;
+    color: white;
+  }
+  
+  form input::placeholder {
+    color: #a7a7a7;
+  }
+  
+  .forgot {
+    color: #1db954;
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    align-self: flex-end;
+  }
+  
+  button[type="submit"] {
+    background-color: #1db954;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1ed760;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .divider span {
+    background: #1e1e1e;
+    padding: 0 10px;
+    color: #aaa;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    height: 1px;
+    background: #333;
+    position: absolute;
+    top: 50%;
+    width: 40%;
+  }
+  
+  .divider::before {
+    left: 0;
+  }
+  
+  .divider::after {
+    right: 0;
+  }
+  
+  .alt-login button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .facebook {
+    background-color: #2851a8;
+    color: white;
+  }
+  
+  .google {
+    background-color: #db4437;
+    color: white;
+  }
+  
+  .apple {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .signup {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .signup a {
+    color: #1db954;
+    text-decoration: none;
+  }
+  
