@@ -1,7 +1,7 @@
 
 # 🎧 Spotify Login Page Clone
 
-A sleek and responsive front-end clone of Spotify’s login page — built with HTML, CSS, and JavaScript.
+A sleek and responsive front-end based clone of Spotify’s login page — built with HTML, CSS, and JavaScript.
 Designed purely for practice and to showcase clean UI skills. No frameworks, no fluff — just pure front-end.
 
 
